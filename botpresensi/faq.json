@@ -70,8 +70,10 @@
         {
             "intent": "bot.faq.common",
             "utterances": [
-                "ini beneran bot bukan sih",
-                "apakah ini bot"
+                "ini bot?",
+                "ini beneran bot?",
+                "ini beneran bot bukan sih?",
+                "apakah ini bot?"
             ],
             "answers": [
                 "Tentu saja BOT dong, kak 👀"
