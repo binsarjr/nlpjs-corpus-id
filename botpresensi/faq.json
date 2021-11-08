@@ -3,7 +3,7 @@
     "locale": "id-ID",
     "data": [
         {
-            "intent": "bot.faq",
+            "intent": "bot.faq.contributor",
             "utterances": [
                 "Mau bantu kembangin boleh tidak, kak ?"
             ],
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "intent": "bot.faq",
+            "intent": "bot.faq.common",
             "utterances": [
                 "Bisakah menggunakan BOT di chat pribadi?"
             ],
@@ -21,25 +21,18 @@
             ]
         },
         {
-            "intent": "bot.faq",
+            "intent": "bot.faq.error",
             "utterances": [
-                "Bagaimana solusi apabila gagal mengambil data dari qrcode?"
-            ],
-            "answers": [
-                "Sebenarnya kami sangat menyarankan cara yg ke-2 kak. Hanya saja cara yang ke-2 perlu aplikasi pihak ketiga untuk men-scan *qrcode* secara terpisah.\n\nMungkin kalau smartphone kakak sudah punya aplikasinya boleh tuh digunakan xixixi. Smartphone seperti Xiaomi contohnya, biasanya sudah ada sih, kak. Semoga menjawab ya 👍"
-            ]
-        },
-        {
-            "intent": "bot.faq",
-            "utterances": [
+                "Bagaimana solusi apabila gagal mengambil data dari qrcode?",
                 "Kenapa BOT gagal membaca qrcode?"
             ],
             "answers": [
+                "Sebenarnya kami sangat menyarankan cara yg ke-2 kak. Hanya saja cara yang ke-2 perlu aplikasi pihak ketiga untuk men-scan *qrcode* secara terpisah.\n\nMungkin kalau smartphone kakak sudah punya aplikasinya boleh tuh digunakan xixixi. Smartphone seperti Xiaomi contohnya, biasanya sudah ada sih, kak. Semoga menjawab ya 👍",
                 "Hmmm, biasanya hal itu terjadi dikarenakan resolusi gambar yang dikirimkan kurang jelas (maklum kak BOT ini mengkompres gambar yang kita kirimkan) atau tidak terbaca oleh sistem.\n\nBisa juga karena dosen sudah menutup presensi sehingga *qrcode* tidak bisa lagi digunakan 😿"
             ]
         },
         {
-            "intent": "bot.faq",
+            "intent": "bot.faq.common",
             "utterances": [
                 "Apa fitur-fitur BOT Presensi ini?"
             ],
@@ -48,7 +41,7 @@
             ]
         },
         {
-            "intent": "bot.faq",
+            "intent": "bot.faq.system",
             "utterances": [
                 "Apakah BOT ini punya jam reset?"
             ],
@@ -57,7 +50,7 @@
             ]
         },
         {
-            "intent": "bot.faq",
+            "intent": "bot.faq.common",
             "utterances": [
                 "Kalau begini bisa dong absen pake NIM mahasiswa lain?"
             ],
@@ -66,7 +59,7 @@
             ]
         },
         {
-            "intent": "bot.faq",
+            "intent": "bot.faq.common",
             "utterances": [
                 "Kalau sudah presensi lewat AmikomONE lalu mencoba lewat BOT lagi apakah akan double?"
             ],
@@ -75,9 +68,10 @@
             ]
         },
         {
-            "intent": "bot.faq",
+            "intent": "bot.faq.common",
             "utterances": [
-                "Ini beneran BOT bukan sih?"
+                "ini beneran bot bukan sih",
+                "apakah ini bot"
             ],
             "answers": [
                 "Tentu saja BOT dong, kak 👀"
