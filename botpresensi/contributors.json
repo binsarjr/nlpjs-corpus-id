@@ -1,0 +1,34 @@
+{
+    "name": "Corpus Bot Presensi Contributors",
+    "locale": "id-ID",
+    "data": [
+        {
+            "intent": "bot.contributors.maintainer",
+            "utterances": [
+                "siapa penciptamu",
+                "yang bikin siapa",
+                "siapakah yang membuatmu",
+                "siapa bosmu",
+                "siapa pengembangmu"
+            ],
+            "answers": [
+                "Binsar Dwi Jasuma adalah pencipta saya. Kamu bisa spill pencipta saya melalui link dibawah ini xixixi\n\nhttps://www.linkedin.com/in/binsarjr/\nhttps://github.com/binsarjr\nhttps://www.instagram.com/binsar_dj/"
+            ]
+        },
+        {
+            "intent": "bot.contributors",
+            "utterances": [
+                "siapa saja kontributor yang ada",
+                "siapakah team dibalik bot ini",
+                "siapa saja yang membuatmu"
+            ],
+            "answers": [
+                "Binsar Dwi Jasuma adalah pencipta saya. Kamu bisa spill pencipta saya melalui link dibawah ini xixixi\n\nhttps://www.linkedin.com/in/binsarjr/\nhttps://github.com/binsarjr\nhttps://www.instagram.com/binsar_dj/",
+                "Kalwabed Rizki merupakan salah satu pengembang saya. spill dong kak\nhttps://www.linkedin.com/in/kalwabed/\nhttps://github.com/kalwabed\nhttps://www.instagram.com/kalwabed/\nhttps://www.kalwabed.xyz/",
+                "Hisyam merupakan seorang tester pada tim kami. Dia juga memiliki akun github lohh https://github.com/4t20am",
+                "Yudistira Arya Mutamang merupakan seorang tester pada tim kami. Jangan lupa spill yah https://www.linkedin.com/in/lordrukie/\nhttps://github.com/lordrukie\nhttps://www.instagram.com/lordrukie",
+                "Muhammad Rafly Indrawan merupakan seorang developer pada tim kami. Wajib spill https://www.linkedin.com/in/fliw/\nhttps://github.com/Fliw\nhttps://fliw.tech/"
+            ]
+        }
+    ]
+}

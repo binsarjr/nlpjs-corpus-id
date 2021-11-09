@@ -5,7 +5,9 @@
         {
             "intent": "bot.faq.contributor",
             "utterances": [
-                "mau bantu kembangin boleh tidak kak "
+                "mau bantu kembangin boleh tidak kak",
+                "mau ikut berkontribusi",
+                "saya ingin kontribusi"
             ],
             "answers": [
                 "Aaa bisa banget dong, kak. Kamu kalau mau bantu kembangin boleh nih bikin video cara penggunaan BOT ini. Video bisa kirimkan ke email developer-nya di: binsarjr121@gmail.com. Nama kakak juga nantinya akan kami masukkan ke daftar kontributor BOT ini 👍"
@@ -14,7 +16,9 @@
         {
             "intent": "bot.faq.common",
             "utterances": [
-                "bisakah menggunakan bot di chat pribadi"
+                "bisakah menggunakan bot di chat pribadi",
+                "bisa via japri",
+                "bisa lewat pesan pribadi"
             ],
             "answers": [
                 "Bisa banget kok, kak 👀"
@@ -24,7 +28,8 @@
             "intent": "bot.faq.error",
             "utterances": [
                 "bagaimana solusi apabila gagal mengambil data dari qrcode",
-                "kenapa bot gagal membaca qrcode"
+                "kenapa bot gagal membaca qrcode",
+                "gagal membaca qrcode"
             ],
             "answers": [
                 "Sebenarnya kami sangat menyarankan cara yg ke-2 kak. Hanya saja cara yang ke-2 perlu aplikasi pihak ketiga untuk men-scan *qrcode* secara terpisah.\n\nMungkin kalau smartphone kakak sudah punya aplikasinya boleh tuh digunakan xixixi. Smartphone seperti Xiaomi contohnya, biasanya sudah ada sih, kak. Semoga menjawab ya 👍",
@@ -52,7 +57,9 @@
         {
             "intent": "bot.faq.common",
             "utterances": [
-                "kalau begini bisa dong absen pake nim mahasiswa lain"
+                "kalau begini bisa dong absen pake nim mahasiswa lain",
+                "berarti bisa absen pakai nim lain",
+                "kalau absen dengan nim lain bisa"
             ],
             "answers": [
                 "Untuk saat ini bisa kak, huhuhuhu. Tapi, tenang saja kak, developer saya sudah punya daftar tertulis untuk claim NIM kakak. Mohon bersabar ya kak, karena developer saya-pun hanya punya waktu sabtu dan minggu saja untuk mengembangkan ini 😭"
@@ -61,16 +68,17 @@
         {
             "intent": "bot.faq.common",
             "utterances": [
-                "kalau sudah presensi lewat amikomone lalu mencoba lewat bot lagi apakah akan double"
+                "kalau sudah presensi lewat amikomone lalu mencoba lewat bot lagi apakah akan double",
+                "kalau sudah presensi bagaimana"
             ],
             "answers": [
-                "Nggak kok kak santai aja 😎. Presensi akan dihitung jika respon dari BOT-nya adalah '*Presensi berhasil*' saja kak.\n\nKalau pesannya '*Anda sudah presensi*', ya berarti kakak sudah melakukan presensi dan berhasil diterima oleh sistem. Semoga terjawab ya."
+                "santai saja kak 😎. Presensi akan dihitung jika respon dari BOT-nya adalah '*Presensi berhasil*' saja kak.\n\nKalau pesannya '*Anda sudah presensi*', ya berarti kakak sudah melakukan presensi dan berhasil diterima oleh sistem. Semoga terjawab ya."
             ]
         },
         {
-            "intent": "bot.faq.common",
+            "intent": "bot.faq.common_bot",
             "utterances": [
-                "ini bot",
+                "ini bot atau bukan",
                 "ini beneran bot",
                 "ini beneran bot bukan sih",
                 "apakah ini bot"

@@ -1,0 +1,19 @@
+{
+    "name": "Corpus Bot Presensi Negatif respon",
+    "locale": "id-ID",
+    "data": [
+        {
+            "intent": "bot.negatif",
+            "utterances": [
+                "anjing kamu",
+                "kamu anjing",
+                "bangsat bot"
+            ],
+            "answers": [
+                "Jangan ngomong kasar kak",
+                "Ehh ga boleh begitu",
+                "saya tampol kamu nanti kalau ngomong begitu"
+            ]
+        }
+    ]
+}
