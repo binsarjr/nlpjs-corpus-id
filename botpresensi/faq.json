@@ -5,7 +5,7 @@
         {
             "intent": "bot.faq.contributor",
             "utterances": [
-                "Mau bantu kembangin boleh tidak, kak ?"
+                "mau bantu kembangin boleh tidak kak "
             ],
             "answers": [
                 "Aaa bisa banget dong, kak. Kamu kalau mau bantu kembangin boleh nih bikin video cara penggunaan BOT ini. Video bisa kirimkan ke email developer-nya di: binsarjr121@gmail.com. Nama kakak juga nantinya akan kami masukkan ke daftar kontributor BOT ini 👍"
@@ -14,7 +14,7 @@
         {
             "intent": "bot.faq.common",
             "utterances": [
-                "Bisakah menggunakan BOT di chat pribadi?"
+                "bisakah menggunakan bot di chat pribadi"
             ],
             "answers": [
                 "Bisa banget kok, kak 👀"
@@ -23,8 +23,8 @@
         {
             "intent": "bot.faq.error",
             "utterances": [
-                "Bagaimana solusi apabila gagal mengambil data dari qrcode?",
-                "Kenapa BOT gagal membaca qrcode?"
+                "bagaimana solusi apabila gagal mengambil data dari qrcode",
+                "kenapa bot gagal membaca qrcode"
             ],
             "answers": [
                 "Sebenarnya kami sangat menyarankan cara yg ke-2 kak. Hanya saja cara yang ke-2 perlu aplikasi pihak ketiga untuk men-scan *qrcode* secara terpisah.\n\nMungkin kalau smartphone kakak sudah punya aplikasinya boleh tuh digunakan xixixi. Smartphone seperti Xiaomi contohnya, biasanya sudah ada sih, kak. Semoga menjawab ya 👍",
@@ -34,7 +34,7 @@
         {
             "intent": "bot.faq.common",
             "utterances": [
-                "Apa fitur-fitur BOT Presensi ini?"
+                "apa fitur-fitur bot presensi ini"
             ],
             "answers": [
                 "Halo kak. Salah satu fitur yang BOT ini sajikan adalah untuk mempermudah absen para mahasiswa yang terkendala dengan aplikasi AmikomONE. Dengan menggunakan BOT ini kakak tidak perlu lagi menunggu dosen untuk menginputkan satu-satu NIM yg kakak miliki 👍.\n\n\nSedangkan, untuk kekurangannya sendiri saat ini BOT ini masih memerlukan device (smartphone sendiri) dan juga _server_ yang mana berbeda sekali seperti halnya BOT di Telegram ataupun Discord yang masing-masing platform tersebut sudah menyediakan service untuk menjalankan BOT itu sendiri. Jadi, apabila device server dari developer mati (misal: mati listrik, atau kendala teknis), BOT juga akan otomatis non-aktif.\n\n\nKami harap BOT ini bisa membantu kakak-kakak untuk presensi. Terima kasih, kak 👍"
@@ -43,7 +43,7 @@
         {
             "intent": "bot.faq.system",
             "utterances": [
-                "Apakah BOT ini punya jam reset?"
+                "apakah bot ini punya jam reset"
             ],
             "answers": [
                 "Punya dong kak. BOT ini akan mereset semua pesan pada jam 00:00 WIB. Jadi, kakak-kakak semuanya gunakanlah perintah BOT hari ini hanya untuk hari ini saja ya, kak. Fitur ini ada untuk menjaga stabilitas server dengan membersihkan pesan-pesan yang telah lalu 👻. Mohon dimaklumi ya kak."
@@ -52,7 +52,7 @@
         {
             "intent": "bot.faq.common",
             "utterances": [
-                "Kalau begini bisa dong absen pake NIM mahasiswa lain?"
+                "kalau begini bisa dong absen pake nim mahasiswa lain"
             ],
             "answers": [
                 "Untuk saat ini bisa kak, huhuhuhu. Tapi, tenang saja kak, developer saya sudah punya daftar tertulis untuk claim NIM kakak. Mohon bersabar ya kak, karena developer saya-pun hanya punya waktu sabtu dan minggu saja untuk mengembangkan ini 😭"
@@ -61,7 +61,7 @@
         {
             "intent": "bot.faq.common",
             "utterances": [
-                "Kalau sudah presensi lewat AmikomONE lalu mencoba lewat BOT lagi apakah akan double?"
+                "kalau sudah presensi lewat amikomone lalu mencoba lewat bot lagi apakah akan double"
             ],
             "answers": [
                 "Nggak kok kak santai aja 😎. Presensi akan dihitung jika respon dari BOT-nya adalah '*Presensi berhasil*' saja kak.\n\nKalau pesannya '*Anda sudah presensi*', ya berarti kakak sudah melakukan presensi dan berhasil diterima oleh sistem. Semoga terjawab ya."
@@ -70,10 +70,10 @@
         {
             "intent": "bot.faq.common",
             "utterances": [
-                "ini bot?",
-                "ini beneran bot?",
-                "ini beneran bot bukan sih?",
-                "apakah ini bot?"
+                "ini bot",
+                "ini beneran bot",
+                "ini beneran bot bukan sih",
+                "apakah ini bot"
             ],
             "answers": [
                 "Tentu saja BOT dong, kak 👀"
